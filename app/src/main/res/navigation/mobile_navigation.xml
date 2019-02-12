@@ -19,6 +19,7 @@
             android:id="@+id/next_action"
             app:destination="@id/destination_photos" />
     </fragment>
+
     <fragment
         android:id="@+id/destination_photos"
         android:name="com.resocoder.navigationtut.PhotosFragment"
@@ -32,6 +33,7 @@
             android:defaultValue="0"
             app:argType="integer" />
     </fragment>
+
     <fragment
         android:id="@+id/destination_settings"
         android:name="com.resocoder.navigationtut.SettingsFragment"
